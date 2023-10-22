@@ -1,0 +1,44 @@
+.WhatweContainer{
+    background-color: #EAEAEA; /* Set the desired background color for Whatwedo */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.HeadBox{
+    display: inline;
+}
+.Para{
+    padding: 2%;
+    font-size: large;
+    font-family:"Playfair Display";
+}
+.CardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.Card{
+    width: calc(33.3% - 10px); 
+    margin-bottom: 20px;
+    padding:10px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .Card {
+      width: calc(100%-10px); 
+    }
+    .CardContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+.Head{
+    font-size: 2.5em;
+    color: rgb(12, 12, 13);
+    font-family: 'Playfair Display';
+}

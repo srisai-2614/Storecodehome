@@ -1,0 +1,14 @@
+.CardComponent{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: calc(33.3% - 1rem);
+}
+
+.CardHead{
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display';
+}
+.CardDescription{
+    padding: 5%;
+    color: #050505;
+}

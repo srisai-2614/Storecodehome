@@ -1,0 +1,27 @@
+.Container{
+    align-items: center;
+    background-image: url('../../Images/Storecodebg.jpg');
+    background-size: auto; /* This makes the image cover the entire container */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    
+}
+.Box{
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.Heading{
+    font-size: 2.5em;
+    color: #ff00eef8;
+}
+.InputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}

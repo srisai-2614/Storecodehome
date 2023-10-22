@@ -1,0 +1,16 @@
+.YoutubeContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.video{
+    width: 25%;
+    height: 60%;
+
+}
+@media  (max-width: 768px) {
+    .video{
+        width: 90%;
+    }
+}
+
